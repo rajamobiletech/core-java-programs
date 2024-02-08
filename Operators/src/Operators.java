@@ -8,12 +8,12 @@ public class Operators {
     private static void relationalOperations() {
         // Relational Operators
         /*
-        ==
-        <
-        >
-        <=
-        >=
-        !=
+        == :Equal-to operator ( == ) returns true if both operands have the same value; otherwise, it returns false 
+        <  :Checks if the value of left operand is less than the value of right operand, if yes then condition becomes true.
+        >  :Checks if the value of left operand is greater than the value of right operand, if yes then condition becomes true.
+        <= :Checks if the value of left operand is less than or equal to the value of right operand, if yes then condition becomes true.
+        >= :Checks if the value of left operand is greater than or equal to the value of right operand, if yes then condition becomes true.
+        != :Checks if the values of two operands are equal or not, if values are not equal then condition becomes true.
          */
         int a=30;
         int b=20;
@@ -56,11 +56,11 @@ public class Operators {
     public static void arithmeticOperations() {
         //Arithmetic Operators
         /*
-        Addition (+)
-        Subtraction(-)
-        Multiplication(*)
-        Division(/)
-        Modular(%)
+        Addition (+) :Adds two operands
+        Subtraction(-) : Subtracts second operand from the first
+        Multiplication(*) : Multiplies both operands
+        Division(/) : Divides numerator by de-numerator gives quotient as output
+        Modular(%)  : This gives remainder as output 
          */
         int a = 5;
         int b = 2;
