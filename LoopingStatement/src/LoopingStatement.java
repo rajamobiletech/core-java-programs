@@ -1,6 +1,9 @@
 public class LoopingStatement {
     public static void main(String[] args) {
+	/* intialization ;condition ; increment/decrement in for loop at a time
+	A for loop repeats until a specified condition evaluates to false. */
         forLoopExample();
+	/*  */
         whileLoopExample();
         doWhileExample();
     }
