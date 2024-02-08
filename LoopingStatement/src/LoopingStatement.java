@@ -3,8 +3,11 @@ public class LoopingStatement {
 	/* intialization ;condition ; increment/decrement in for loop at a time
 	A for loop repeats until a specified condition evaluates to false. */
         forLoopExample();
-	/*  */
+	/* While loop allows code to be executed repeatedly based on a given boolean condition
+	 * It repeats the loop until condition is false*/
         whileLoopExample();
+	/*do while loop execute the block of code once, before checkinh if the condition is true,
+	 * then it will repeat loop until the condition is true*/
         doWhileExample();
     }
 
