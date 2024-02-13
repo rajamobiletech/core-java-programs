@@ -2,7 +2,9 @@ public class SwitchStatement {
 
     public static void main(String[] args) {
         switchExample1();
+        System.out.println("=================");
         switchExample2();   // Error Method
+        System.out.println("=================");
         switchExample3();
     }
 
@@ -39,7 +41,7 @@ public class SwitchStatement {
     }
 
     public static void switchExample3() {
-        int a = 5;
+        int a = 12;
         switch (a) {
             case 1:
                 System.out.println("One");

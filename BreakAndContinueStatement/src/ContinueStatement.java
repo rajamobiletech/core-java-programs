@@ -12,6 +12,7 @@ public class ContinueStatement {
                 }
                 System.out.println(i);
             }
+        System.out.println("=======================");
     }
 
     private static void continueExample2(int skipStartValue,int  skipendValue) {
@@ -21,5 +22,6 @@ public class ContinueStatement {
             }
             System.out.println(i);
         }
+        System.out.println("=======================");
     }
 }
