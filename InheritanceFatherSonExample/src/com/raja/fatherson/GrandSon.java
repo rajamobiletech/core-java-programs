@@ -5,6 +5,7 @@ public class GrandSon extends Father {
     String dressCode = "western";
 
     public GrandSon() {
+        super();
         System.out.println("Grandson Constructor called");
     }
 

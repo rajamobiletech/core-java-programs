@@ -4,7 +4,6 @@ public class Son extends Father {
 
     String dressCode = "modern";
     public Son() {
-
         System.out.println("Son Constructor called");
     }
 

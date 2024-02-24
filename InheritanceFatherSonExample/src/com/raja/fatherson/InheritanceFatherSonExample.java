@@ -9,11 +9,13 @@ public class InheritanceFatherSonExample {
 //        son.sendMessage();
 
 
-        Father grandSon = new GrandSon();
+        GrandSon grandSon = new GrandSon();
         Phone iosmax = new Phone("iphone16 max", "apple", "red");
         grandSon.setPhone( iosmax);
         grandSon.phoneCall();
         grandSon.sendMessage();
         System.out.println(grandSon.dressCode);
+
+        System.out.println(grandSon instanceof Father);
     }
 }

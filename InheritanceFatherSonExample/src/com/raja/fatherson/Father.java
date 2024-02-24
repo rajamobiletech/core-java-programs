@@ -1,7 +1,7 @@
 package com.raja.fatherson;
 
 public class Father {
-    private Phone phone;
+    protected Phone phone;
 
     String dressCode = "classic";
 
